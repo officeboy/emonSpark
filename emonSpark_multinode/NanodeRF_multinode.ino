@@ -80,7 +80,7 @@ boolean use_hisip = false;
 char basedir[] = "";
 
 // 3) Set to your account write apikey 
-char apikey[] = "YOURAPIKEY";
+char APIKEY[] = "YOURAPIKEY";
 
 //IP address of remote sever, only needed when posting to a server that has not got a dns domain name (staticIP e.g local server) 
 byte Ethernet::buffer[700];
